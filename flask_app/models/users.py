@@ -1,6 +1,6 @@
 from flask_app.config.mysqlconnection import connectToMySQL
 
-from flask import flash  # se encarga de mostrar mensajes y errores
+from flask import flash   # se encarga de mostrar mensajes y errores
 import re #importando las expresiones regulares
 EMAIL_REGEX = re.compile(r'^[a-zA-Z0-9.+_-]+@[a-zA-Z0-9._-]+\.[a-zA-Z]+$')# expresion regular de email
 
